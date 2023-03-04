@@ -1,0 +1,67 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: gainsboro;
+}
+
+#mobile{
+    margin-top: 35px;
+    margin-left: 500px;
+    height: 90vh;
+    width: 25vw;
+    background-color: black;
+    border-radius: 25px;
+}
+#dobleclick{
+    position:absolute;
+    margin-top: 350px;
+    margin-left: 110px;
+    color:black;
+    height: 22vh;
+    border-radius: 100px;
+    width:10vw;
+    font-size: 30px;
+    background-color: white;
+    
+    animation-name: hello;
+    animation-duration:2s;
+    animation-iteration-count: infinite; 
+    
+
+}
+@keyframes hello{
+
+    from{
+   
+        background-color:cyan
+        ;
+    }
+     to{
+     
+     background-color:aquamarine;
+     background:blueviolet;
+    
+    }
+    
+}
+#tap{
+    position: relative ;
+   font-size: 30px;
+   background-color:transparent;
+   color: aliceblue;
+ 
+   
+}
+
+#image{
+   position:absolute;
+   margin-top: 23px;
+   margin-left: 20px;
+   border-radius: 20px;
+   height: 82vh;
+   width: 22vw;
+   box-shadow: whitesmoke 2px 2px,cyan -2px -2px;
+  
+   display: none;
+}
